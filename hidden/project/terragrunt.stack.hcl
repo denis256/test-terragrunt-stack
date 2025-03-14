@@ -1,16 +1,16 @@
 stack "root-config" {
-  source = "${get_repo_root()}/stack-test/hidden/config/root"
+  source = "${get_repo_root()}/hidden/configs/root"
   path   = "root-config"
   hidden = true
 }
 
 stack "dev" {
-  source = "${get_repo_root()}/stack-test/hidden/stacks/dev"
+  source = "${get_repo_root()}/hidden/stacks/dev"
   path   = "dev"
 }
 
 stack "prod" {
-  source = "${get_repo_root()}/stack-test/hidden/stacks/prod"
+  source = "${get_repo_root()}/hidden/stacks/prod"
   path   = "prod"
 }
 
