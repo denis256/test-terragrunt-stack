@@ -13,5 +13,6 @@ unit "app" {
 	values = {
 		data = "application config"
 	}
+	no_dot_terragrunt_stack = true
 }
 
