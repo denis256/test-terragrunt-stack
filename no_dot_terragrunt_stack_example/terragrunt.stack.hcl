@@ -11,7 +11,7 @@ unit "app" {
 	source = "${get_repo_root()}/no_dot_terragrunt_stack_example/units/app"
 	path   = "app"
 	values = {
-		data = "application config"
+		data = "application"
 	}
 	no_dot_terragrunt_stack = true
 }
